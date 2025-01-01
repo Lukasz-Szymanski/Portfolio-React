@@ -1,12 +1,11 @@
-import "./App.css";
+import Header from "./components/header";
 import VideoBackground from "./components/VideoBackground";
 
 function App() {
   return (
     <>
-      <h1>
-        <VideoBackground />
-      </h1>
+      <VideoBackground />
+      <Header />
     </>
   );
 }
