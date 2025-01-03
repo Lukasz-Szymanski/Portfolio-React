@@ -3,9 +3,9 @@ import React from "react";
 import {
   FaInstagram,
   FaGithub,
+  FaGitlab,
   FaLinkedin,
   FaTwitter,
-  FaXing,
 } from "react-icons/fa";
 
 const Footer: React.FC = () => {
@@ -43,11 +43,11 @@ const Footer: React.FC = () => {
             <FaTwitter size={24} />
           </a>
           <a
-            href="https://www.xing.com"
+            href="https://www.gitlab.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition">
-            <FaXing size={24} />
+            <FaGitlab size={24} />
           </a>
         </div>
         <p className="mt-4 text-sm text-gray-500">
