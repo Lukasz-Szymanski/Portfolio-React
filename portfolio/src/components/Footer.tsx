@@ -6,48 +6,56 @@ import {
   FaGitlab,
   FaLinkedin,
   FaTwitter,
+  FaYoutube,
 } from "react-icons/fa";
 
 const Footer: React.FC = () => {
   return (
-    <footer className=" text-white relative z-20">
+    <footer className=" text-white z-20 fixed bottom-0 left-0 w-full py-4">
       <div className="container mx-auto text-center">
-        <div className="flex justify-center space-x-6">
+        <div className="flex justify-center space-x-6 e">
           {/* Ikonki social media */}
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/szymanski__art/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition">
             <FaInstagram size={24} />
           </a>
           <a
-            href="https://www.github.com"
+            href="https://github.com/Lukasz-Szymanski"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition">
             <FaGithub size={24} />
           </a>
           <a
-            href="https://www.linkedin.com"
+            href="https://gitlab.com/Lukasz-Szymanski"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition">
+            <FaGitlab size={24} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/lukasz-szymanski94/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition">
             <FaLinkedin size={24} />
           </a>
           <a
-            href="https://www.twitter.com"
+            href="https://twitter.com/szymanski_art"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition">
             <FaTwitter size={24} />
           </a>
           <a
-            href="https://www.gitlab.com"
+            href="https://www.youtube.com/@Lukasz_Szymanski"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition">
-            <FaGitlab size={24} />
+            <FaYoutube size={24} />
           </a>
         </div>
         <p className="mt-4 text-sm text-white">
