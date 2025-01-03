@@ -1,5 +1,6 @@
-import Header from "./components/header";
-import HeroSection from "./components/hero";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import HeroSection from "./components/Hero";
 import VideoBackground from "./components/VideoBackground";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <VideoBackground />
       <Header />
       <HeroSection />
+      <Footer />
     </>
   );
 }
