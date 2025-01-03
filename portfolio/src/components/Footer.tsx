@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
             <FaGitlab size={24} />
           </a>
         </div>
-        <p className="mt-4 text-sm text-gray-500">
+        <p className="mt-4 text-sm text-white">
           © 2025 Łukasz Szymański. All rights reserved.
         </p>
       </div>
