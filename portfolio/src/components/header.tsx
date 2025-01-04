@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/images/logo.png";
+import CV from "../assets/resume/Łukasz_Szymański_CV.pdf";
 
 const Header: React.FC = () => {
   return (
@@ -17,6 +18,13 @@ const Header: React.FC = () => {
           </a>
           <a href="#" className="mr-5 ">
             Backend
+          </a>
+          <a
+            href={CV}
+            className="mr-5"
+            target="blank
+          ">
+            CV
           </a>
           <a href="#" className="mr-5 ">
             Kontakt
