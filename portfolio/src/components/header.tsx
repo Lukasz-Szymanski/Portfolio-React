@@ -16,10 +16,10 @@ const Header: React.FC = () => {
           <Link to="/about" className="mr-5 ">
             O mnie
           </Link>
-          <Link to="" className="mr-5 ">
+          <Link to="/frontend" className="mr-5 ">
             Frontned
           </Link>
-          <Link to="" className="mr-5 ">
+          <Link to="/backend" className="mr-5 ">
             Backend
           </Link>
           <a
@@ -29,7 +29,7 @@ const Header: React.FC = () => {
           ">
             CV
           </a>
-          <Link to="" className="mr-5 ">
+          <Link to="/contact" className="mr-5 ">
             Kontakt
           </Link>
         </nav>

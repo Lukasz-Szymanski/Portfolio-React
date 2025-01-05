@@ -11,7 +11,7 @@ import {
 
 const Footer: React.FC = () => {
   return (
-    <footer className=" text-white z-10 fixed bottom-0 left-0 w-full py-4">
+    <footer className="text-white z-10 fixed bottom-0 left-0 w-full py-4">
       <div className="container mx-auto text-center">
         <div className="flex justify-center space-x-6 e">
           {/* Ikonki social media */}
