@@ -5,7 +5,7 @@ import CV from "../assets/resume/Łukasz_Szymański_CV.pdf";
 
 const Header: React.FC = () => {
   return (
-    <header className="fixed top-0 left-0 w-full body-font z-10 ">
+    <header className="sticky top-0 left-0 w-full body-font z-10 ">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <Link
           to=""
