@@ -4,9 +4,9 @@ import Profile from "../assets/images/profile-img.png";
 const About: React.FC = () => {
   return (
     <section
-      className="fixed z-10 w-full h-screen flex items-center justify-center body-font"
+      className="fixed z-10 w-full h-screen flex items-center justify-center body-font pb-32"
       id="about">
-      <div className="container mx-auto flex px-5 py-52 items-center justify-center flex-col">
+      <div className="container mx-auto flex px-5 items-center justify-center flex-col">
         <img
           className="lg:w-1/6 md:w-1/4 w-1/3 mb-10 object-cover object-center rounded-full"
           alt="Łukasz Szymański"
