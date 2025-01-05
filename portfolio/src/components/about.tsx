@@ -4,7 +4,7 @@ import Profile from "../assets/images/profile-img.png";
 const About: React.FC = () => {
   return (
     <section
-      className="fixed z-10 w-full h-screen flex items-center justify-center body-font pb-32"
+      className="fixed z-10 w-full h-screen flex items-center justify-center body-font pb-40"
       id="about">
       <div className="container mx-auto flex px-5 items-center justify-center flex-col">
         <img
