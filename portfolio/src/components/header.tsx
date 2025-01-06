@@ -29,6 +29,9 @@ const Header: React.FC = () => {
           ">
             CV
           </a>
+          <Link to="/offer" className="mr-5 ">
+            Usługi
+          </Link>
           <Link to="/contact" className="mr-5 ">
             Kontakt
           </Link>
