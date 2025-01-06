@@ -17,7 +17,7 @@ const Header: React.FC = () => {
             O mnie
           </Link>
           <Link to="/frontend" className="mr-5 ">
-            Frontned
+            Frontend
           </Link>
           <Link to="/backend" className="mr-5 ">
             Backend

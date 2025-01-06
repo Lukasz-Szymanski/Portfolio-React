@@ -6,10 +6,8 @@ const Offer: React.FC = () => {
       className="fixed z-10 w-full h-screen flex items-center justify-center body-font pb-40"
       id="offer">
       <div className="items-center text-center">
-        <h1>
-          Tworzę strony internetowe, które przyciągają klientów i montuje filmy,
-          które opowiadają historie.
-        </h1>
+        <div className="">Tworzenie stron WWW</div>
+        <div className="">Montaż filmów wideo</div>
       </div>
     </section>
   );

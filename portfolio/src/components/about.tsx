@@ -6,21 +6,40 @@ const About: React.FC = () => {
     <section
       className="fixed z-10 w-full h-screen flex items-center justify-center body-font pb-40"
       id="about">
-      <div className="container mx-auto flex px-5 items-center justify-center flex-col">
-        <img
-          className="lg:w-1/6 md:w-1/4 w-1/3 mb-10 object-cover object-center rounded-full"
-          alt="Łukasz Szymański"
-          src={Profile}
-        />
-        <div className="text-center lg:w-2/3 w-full">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium ">
-            Łukasz Szymański
-          </h1>
-          <p className="mb-8 leading-relaxed">
-            Freelance Web Developer
-            <br />
-            Musician
-          </p>
+      <div className="py-4 sm:py-6 lg:py-12">
+        <div className="mx-auto max-w-screen-xl px-4 md:px-8">
+          <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
+            <div>
+              <div className="h-64  overflow-hidden rounded-lg shadow-lg md:h-auto">
+                <img
+                  src={Profile}
+                  loading="lazy"
+                  alt="Łukasz Szymański"
+                  className="h-full w-full object-cover object-center"
+                />
+              </div>
+            </div>
+
+            <div className="md:pt-8">
+              <h1 className="mb-4 text-center text-2xl font-bold 0 sm:text-3xl md:mb-6 md:text-left">
+                Łukasz Szymański
+              </h1>
+              <p className="text-center font-bold  md:text-left mb-5">
+                Freelance Web Developer
+              </p>
+
+              <p className="mb-6 text-justify sm:text-lg md:mb-8">
+                This is a section of some simple filler text, also known as
+                placeholder text. It shares some characteristics of a real
+                written text but is random or otherwise generated. It may be
+                used to display a sample of fonts or generate text for testing.
+                Filler text is dummy text which has no meaning however looks
+                very similar to real text.
+                <br />
+                <br />
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
