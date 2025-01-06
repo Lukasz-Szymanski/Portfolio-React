@@ -29,14 +29,12 @@ const About: React.FC = () => {
               </p>
 
               <p className="mb-6 text-justify sm:text-lg md:mb-8">
-                This is a section of some simple filler text, also known as
-                placeholder text. It shares some characteristics of a real
-                written text but is random or otherwise generated. It may be
-                used to display a sample of fonts or generate text for testing.
-                Filler text is dummy text which has no meaning however looks
-                very similar to real text.
-                <br />
-                <br />
+                Jestem profesjonalnym muzykiem klasycznym, którego miłość do
+                dźwięku idealnie łączy się z immersyjnym światem programowania.
+                Harmonia, precyzja i kreatywność, które wyrażam w muzyce,
+                znajdują swoje odzwierciedlenie w każdej linii kodu, który
+                piszę. Programowanie to dla mnie nie tylko praca, ale pasja,
+                która pozwala mi łączyć te dwa, pozornie różne światy.
               </p>
             </div>
           </div>
