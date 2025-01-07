@@ -10,6 +10,8 @@ import {
 } from "react-icons/fa";
 
 const Footer: React.FC = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="text-white z-10 fixed bottom-0 left-0 w-full py-4">
       <div className="container mx-auto text-center">
@@ -59,7 +61,7 @@ const Footer: React.FC = () => {
           </a>
         </div>
         <p className="mt-4 text-sm text-white">
-          © 2025 Łukasz Szymański. All rights reserved.
+          © {currentYear} Łukasz Szymański. Wszelkie prawa zastrzeżone.
         </p>
       </div>
     </footer>
