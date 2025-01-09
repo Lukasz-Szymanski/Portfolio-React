@@ -4,7 +4,7 @@ const VideoBackground: React.FC = () => {
   return (
     <div className="absolute w-full h-screen overflow-hidden">
       <video
-        className="absolute  w-full h-full object-cover z-0"
+        className="absolute w-full h-full object-cover z-0"
         autoPlay
         loop
         muted>
