@@ -7,6 +7,7 @@ import Frontend from "./components/Frontend";
 import Backend from "./components/Backend";
 import Contact from "./components/Contact";
 import Offer from "./components/Offer";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <VideoBackground />
       <Header />
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/frontend" element={<Frontend />} />
         <Route path="/backend" element={<Backend />} />
